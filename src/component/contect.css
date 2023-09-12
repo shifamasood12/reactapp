@@ -1,0 +1,56 @@
+body{
+   height: 100%;
+   width: 100%;
+  
+}
+
+.imgs{
+    height: 500px;
+    width: 100%;
+    background-image: url(../Images/13.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: -100px;
+    text-align: center;
+}
+.imgs h1{
+    position: relative;
+    top: 200px;
+    font-size: 70px;
+
+}
+.contents h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.input{
+   width: 400px;
+   position: relative;
+   left: 540px;
+   top: 50px;
+}
+.but{
+    position: relative;
+   left: 700px;
+   top: 30px;
+  
+}
+@media(max-width:700px){
+    .input{
+        width: 300px;
+        left: 30px;
+     }
+     .but{
+       
+       left: 130px;
+      
+    }
+    .imgs{
+        margin-top: -280px;
+    }
+    .imgs h1{
+       
+        top: 320px;
+
+    }
+}

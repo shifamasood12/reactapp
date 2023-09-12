@@ -1,0 +1,52 @@
+.img{
+    height:100vh;
+    width: 100%;
+    background-image: url(../Images/12.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.nav-items{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.nav{
+    margin-left: 185px;
+}
+.btn{
+    position: relative;
+    right: 150px;
+}
+.nav-link{
+    margin-top: -35px;
+    margin-left: 25px;
+}
+.icon{
+   position: relative;
+   right: 5px;
+}
+.navbar{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+@media(max-width:700px){
+    .nav{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .btn{
+        
+        right: -40px;
+    }
+    .mobile{
+        margin-left: 240px;
+        margin-top: -40px;
+    }
+    .main h1{
+        margin-left: -70px;
+    }
+}

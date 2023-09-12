@@ -1,0 +1,27 @@
+.services{
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: -100px;
+    background-image: url(../Images/night.jpg);
+    text-align: center;
+}
+.services h1{
+    position: relative;
+   top: 200px;
+    color: white;
+    font-size: 70px;
+    
+
+}
+@media(max-width:700px){
+    .services{
+        margin-top: -280px;
+    }
+    .services h1{
+       
+       top: 320px;
+        
+    }
+}
